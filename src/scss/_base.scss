@@ -1,8 +1,30 @@
+@import "bootstrap/scss/bootstrap-grid";
+
+@font-face {
+  font-family: "blue-ocean-italic", sans-serif;
+  src: url(../fonts/blue-ocean-italic.woff2);
+}
+@font-face {
+  font-family: "Satoshi", sans-serif;
+  src: url(../fonts/Satoshi-Regular.woff2);
+}
+
 /* ====================================
 // css variables
 // ==================================== */
 
 :root {
+  --dark-grey: #131313;
+  --orange: #ffc988;
+  --dark-orange: #ebaf67;
+  --yellow: #fff170;
+  --dark-yellow: #efd45d;
+  --green: #b3e4b1;
+  --dark-green: #92ba91;
+  --title: "blue-ocean-italic", sans-serif;
+  --text: "Satoshi", sans-serif;
+  // --lemon-mid: #fff8b6;
+  // --lemon-light: #fffbd8;
 }
 
 /* ====================================
@@ -16,7 +38,13 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 22px;
+}
+
+@media (min-width: 769px) {
+  html {
+    font-size: 17px;
+  }
 }
 
 body {
@@ -42,3 +70,15 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}

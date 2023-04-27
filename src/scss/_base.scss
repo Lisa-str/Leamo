@@ -1,14 +1,3 @@
-@import "bootstrap/scss/bootstrap-grid";
-
-@font-face {
-  font-family: "BLUEOCEAN-Italic";
-  src: url(../fonts/blue-ocean-italic.woff2);
-}
-@font-face {
-  font-family: "Satoshi", sans-serif;
-  src: url(../fonts/Satoshi-Regular.woff2);
-}
-
 /* ====================================
 // css variables
 // ==================================== */
@@ -21,7 +10,7 @@
   --dark-yellow: #efd45d;
   --green: #b3e4b1;
   --dark-green: #92ba91;
-  --title: "BLUEOCEAN-Italic";
+  --title: "BLUE OCEAN", serif;
   --text: "Satoshi", sans-serif;
   // --lemon-mid: #fff8b6;
   // --lemon-light: #fffbd8;
@@ -42,6 +31,8 @@ html {
   font-family: var(--text);
   color: var(--dark-grey);
   letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -68,76 +59,51 @@ video {
 // base rules
 // ==================================== */
 
-.row + .row {
-  margin-top: 16px;
-}
+// .row + .row {
+//   margin-top: 16px;
+// }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
 
 h2 {
   font-family: var(--title);
-  font-size: 67px;
+  font-size: 65px;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 h3 {
   font-size: 55px;
   font-family: var(--title);
-}
-
-.button {
-  background: var(--orange);
-  border-radius: 28px;
-  padding: 10px 25px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 400;
 }
 
-.button-minus {
-  border: solid 1.5px #131313;
-  border-radius: 28px;
-  padding: 10px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 11px;
+h1 {
+  width: 190px;
+  height: 73px;
 }
 
-main {
-  background: #ffffff;
-  box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.09);
-}
+// @media (max-width: 992px) {
+//   h3 {
+//     font-size: 45px;
+//   }
 
-.button-yellow {
-  background: var(--yellow);
-}
+//   h2 {
+//     font-size: 57px;
+//   }
+// }
 
-.button-green {
-  background: var(--green);
-}
-
-header {
-  text-align: right;
-}
-
-footer {
-  text-align: left;
-}
-
-@media (max-width: 769px) {
-  html {
-    font-size: 17px;
-    text-align: center;
-    letter-spacing: 0;
-    font-family: var(--text);
-    color: var(--dark-grey);
-  }
+@media (max-width: 992px) {
   h2 {
     font-size: 30px;
     line-height: 38px;
+    padding-top: 10px;
   }
   h3 {
     font-size: 21px;
@@ -149,34 +115,16 @@ footer {
     text-transform: uppercase;
     font-weight: 100;
   }
-  .button {
-    font-size: 11px;
-  }
 
-  .logo {
-    position: relative;
-  }
-  h1 {
-    width: 97px;
-    height: 24px;
-  }
-  .logo-footer {
-    width: 97px;
-    height: 24px;
-  }
-
-  .picture {
-    position: relative;
-    transform: translate(0, 80);
-    z-index: 100;
-    max-width: 400px;
-    max-height: 300px;
+  p {
+    padding: 25px 0 35px 0;
   }
 
   p,
   h3,
   h2,
   h1,
+  h4,
   span {
     z-index: 600;
     position: relative;
@@ -184,5 +132,8 @@ footer {
 
   .ingreditents-visibility {
     display: none;
+  }
+  main {
+    padding-bottom: 50px;
   }
 }

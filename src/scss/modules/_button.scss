@@ -1,0 +1,35 @@
+.button {
+  background: var(--orange);
+  border-radius: 28px;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+.button-minus {
+  border: solid 1.5px #131313;
+  border-radius: 28px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.button-yellow {
+  background: var(--yellow);
+}
+
+.button-green {
+  background: var(--green);
+}
+
+@media (max-width: 992px) {
+  .button {
+    font-size: 11px;
+  }
+}

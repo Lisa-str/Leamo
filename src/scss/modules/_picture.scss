@@ -1,0 +1,32 @@
+.picture-desk {
+  max-width: 50%;
+}
+
+@media (max-width: 992px) {
+  .picture-mobile {
+    position: relative;
+    top: 40px;
+    z-index: 100;
+    width: 360px;
+    padding-top: 40px;
+  }
+
+  .picture-desk {
+    display: none;
+  }
+
+  .picture-mobile-carousel {
+    top: -8px;
+    padding-top: 70px;
+  }
+
+  .picture-into {
+    position: relative;
+  }
+}
+
+@media (min-width: 992px) {
+  .picture-mobile {
+    display: none;
+  }
+}

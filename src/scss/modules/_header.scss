@@ -1,0 +1,13 @@
+.container-header {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  box-shadow: 0 2px 15px #0000001a;
+  background: #fff;
+  position: sticky;
+  padding: 20px;
+}

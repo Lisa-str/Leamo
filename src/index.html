@@ -6,32 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
-  <body>
+  <body class="l-body">
     <header>
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
-            <h1>
-              <img
-                class="logo"
-                src="../src/img/Leamo-Logo.svg"
-                alt="logo leamo"
-              />
-            </h1>
+          <div class="container-header">
+            <div class="col-sm-6 col-md-3">
+              <h1 class="logo">
+                <img src="../src/img/Leamo-Logo.svg" alt="logo leamo" />
+              </h1>
+            </div>
+            <div class="col-8">
+              <nav class="nav-desk">
+                <p>produits</p>
+                <p>engagement</p>
+                <p>cocktails</p>
+                <a href="#">point de vente</a>
+                <a href="">boutique</a>
+              </nav>
+              <nav class="nav-mobile">une image la</nav>
+            </div>
           </div>
-          <div class="col-sm-6">
+          <!-- <div class="col-sm-6">
             <a href="../src/detail.html">l'autre page</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </header>
-    <main>
+    <main class="l-main">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
+          <div class="col-12">
             <img
-              class="picture"
-              src="../src/img/intro-mobile.webp"
+              class="picture-intro"
+              src="../src/img/intro.webp"
               alt="bouteilles leamo"
             />
             <h3>-quand la vie te donne un leamo, bois un leamo</h3>
@@ -42,8 +50,13 @@
         <div class="row justify-content-center align-items-center">
           <div class="col-sm-12">
             <img
-              class="picture"
+              class="picture-mobile"
               src="../src/img/leamo-mobile.webp"
+              alt=" une bouteille leamo"
+            />
+            <img
+              class="picture-desk"
+              src="../src/img/leamo-desk.webp"
               alt=" une bouteille leamo"
             />
           </div>
@@ -60,7 +73,9 @@
             </p>
           </div>
           <div class="col-sm-12">
-            <span class="button">notre assortiment</span>
+            <span class="button"
+              ><a href="../src/detail.html">notre assortiment</a></span
+            >
           </div>
         </div>
       </div>
@@ -68,8 +83,13 @@
         <div class="row justify-content-sm-center align-items-sm-center">
           <div class="col-sm-12">
             <img
-              class="picture"
+              class="picture-mobile"
               src="../src/img/engagement-mobile.webp"
+              alt=" une bouteille leamo avec un verre"
+            />
+            <img
+              class="picture-desk"
+              src="../src/img/engagement-desk.webp"
               alt=" une bouteille leamo avec un verre"
             />
           </div>
@@ -78,15 +98,18 @@
             <p>
               Pour rafraîchir vos papilles, les softs Leamo sont issus de
               recettes naturelles.
-            </p>
-            <p>
+              <br /><br />
               Un sourcing éthique est valorisé pour utiliser des ingrédients de
               qualité qui offrent une authenticité particulière aux saveurs de
               nos boissons.
             </p>
           </div>
           <div class="col-sm-12">
-            <span class="button button-yellow">en savoir plus</span>
+            <span class="button button-yellow"
+              ><a href="https://www.alterfood.fr/produit/limonade/leamo/"
+                >en savoir plus</a
+              ></span
+            >
           </div>
         </div>
       </div>
@@ -94,8 +117,13 @@
         <div class="row justify-content-sm-center align-items-sm-center">
           <div class="col-sm-12">
             <img
-              class="picture"
+              class="picture-mobile"
               src="../src/img/cocktails-mobile.webp"
+              alt=" un vert cocktail"
+            />
+            <img
+              class="picture-desk"
+              src="../src/img/cocktails-desk.webp"
               alt=" un vert cocktail"
             />
           </div>
@@ -104,8 +132,7 @@
             <p>
               Leamo revisite à nouveau ses classiques avec une gamme de craft
               mixers.
-            </p>
-            <p>
+              <br /><br />
               Soucieux du respect des techniques de fabrication traditionnelles,
               Leamo réalise toutes ses recettes avec des ingrédients bio et de
               première qualité.
@@ -120,8 +147,13 @@
         <div class="row justify-content-sm-center align-items-sm-center">
           <div class="col-sm-12">
             <img
-              class="picture"
+              class="picture-mobile picture-mobile-carousel"
               src="../src/img/tensai-mobile.webp"
+              alt=" une bouteille leamo"
+            />
+            <img
+              class="picture-desk"
+              src="../src/img/tensai-desk.webp"
               alt=" une bouteille leamo"
             />
           </div>
@@ -145,8 +177,13 @@
         <div class="row justify-content-sm-center align-items-sm-center">
           <div class="col-sm-12">
             <img
-              class="picture"
+              class="picture-mobile"
               src="../src/img/chilled-mobile.webp"
+              alt=" une bouteille leamo"
+            />
+            <img
+              class="picture-desk"
+              src="../src/img/chilled-desk.webp"
               alt=" une bouteille leamo"
             />
           </div>
@@ -169,8 +206,13 @@
         <div class="row justify-content-sm-center align-items-sm-center">
           <div class="col-sm-12">
             <img
-              class="picture"
+              class="picture-mobile"
               src="../src/img/dameG-mobile.webp"
+              alt=" une bouteille leamo"
+            />
+            <img
+              class="picture-desk"
+              src="../src/img/dameG-desk.webp"
               alt=" une bouteille leamo"
             />
           </div>
@@ -190,7 +232,7 @@
         </div>
       </div> -->
     </main>
-    <footer>
+    <footer class="l-footer">
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
@@ -201,7 +243,7 @@
             />
           </div>
           <div class="col-sm-6">
-            <imgs
+            <img
               class="logo logo-footer"
               src="../src/img/logo-alterfood-black.svg"
               alt="logo alterfood"

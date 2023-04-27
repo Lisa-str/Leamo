@@ -5,7 +5,7 @@
   "scripts": {
     "clean:output": "rimraf dist",
     "dev": "parcel src/index.html",
-    "build": "npm run clean:output && parcel build src/index.html --public-url '.'"
+    "build": "npm run clean:output && parcel build src/*.html --public-url '.'"
   },
   "repository": {
     "type": "git",

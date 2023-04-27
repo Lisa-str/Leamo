@@ -12,8 +12,8 @@
   --dark-green: #92ba91;
   --title: "BLUE OCEAN", serif;
   --text: "Satoshi", sans-serif;
-  // --lemon-mid: #fff8b6;
-  // --lemon-light: #fffbd8;
+  --lemon-mid: #fff8b6;
+  --lemon-light: #fffbd8;
 }
 
 /* ====================================
@@ -59,17 +59,10 @@ video {
 // base rules
 // ==================================== */
 
-// .row + .row {
-//   margin-top: 16px;
-// }
-
-// .row > .col,
-// .row > [class^="col-"] {
-//   padding-top: 12px;
-//   padding-bottom: 12px;
-//   background-color: rgba(86, 61, 124, 0.15);
-//   border: 1px solid rgba(86, 61, 124, 0.2);
-// }
+main {
+  background: #ffffff;
+  box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.09);
+}
 
 h2 {
   font-family: var(--title);
@@ -82,11 +75,8 @@ h3 {
   font-family: var(--title);
   text-transform: uppercase;
   font-weight: 400;
-}
-
-h1 {
-  width: 190px;
-  height: 73px;
+  position: relative;
+  z-index: 600;
 }
 
 // @media (max-width: 992px) {
@@ -114,6 +104,7 @@ h1 {
     font-size: 10px;
     text-transform: uppercase;
     font-weight: 100;
+    padding: 7px 0;
   }
 
   p {
@@ -121,12 +112,10 @@ h1 {
   }
 
   p,
-  h3,
   h2,
-  h1,
   h4,
   span {
-    z-index: 600;
+    z-index: 700;
     position: relative;
   }
 
@@ -135,5 +124,10 @@ h1 {
   }
   main {
     padding-bottom: 50px;
+  }
+
+  h1 {
+    width: 122px;
+    height: 56px;
   }
 }

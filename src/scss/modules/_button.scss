@@ -4,7 +4,7 @@
   padding: 10px 25px;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .button a {
@@ -26,6 +26,10 @@
 
 .button-green {
   background: var(--green);
+}
+
+.button-orange {
+  background: var(--orange);
 }
 
 @media (max-width: 992px) {

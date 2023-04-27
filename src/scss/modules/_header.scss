@@ -1,4 +1,4 @@
-.container-header {
+.header-container {
   text-align: right;
   display: flex;
   justify-content: space-between;
@@ -10,4 +10,5 @@ header {
   background: #fff;
   position: sticky;
   padding: 20px;
+  z-index: 1000;
 }

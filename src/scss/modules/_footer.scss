@@ -2,3 +2,20 @@
   display: flex;
   background: var(--lemon-mid);
 }
+
+@media (max-width: 992px) {
+  .footer-legal-mentions {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-legal-mentions {
+    display: flex;
+  }
+}
+
+.footer-table {
+  padding: 20px 0;
+  display: flex;
+}

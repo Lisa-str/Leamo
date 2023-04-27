@@ -1,12 +1,11 @@
-@media (max-width: 992px) {
-  .logo {
-    position: relative;
-    display: flex;
+.logo-footer {
+  img {
+    width: 97px;
+    height: 24px;
   }
 }
 
 .logo-footer {
-  width: 97px;
-  height: 24px;
+  max-width: 200px;
 }
 // ^ pourquoi ça ne fonctionne pas ?

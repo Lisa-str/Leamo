@@ -1,5 +1,4 @@
 .header-container {
-  text-align: right;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,6 +8,6 @@
   box-shadow: 0 2px 15px #0000001a;
   background: #fff;
   position: sticky;
-  padding: 10px;
+  padding: 20px;
   z-index: 1000;
 }

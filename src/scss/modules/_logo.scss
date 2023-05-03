@@ -5,7 +5,22 @@
   }
 }
 
-.logo-footer {
-  max-width: 200px;
+// en grand
+@media (min-width: 760px) {
+  .logo-header {
+    img {
+      width: 137px;
+      display: block;
+    }
+  }
 }
-// ^ pourquoi ça ne fonctionne pas ?
+
+// en petit
+@media (max-width: 760px) {
+  .logo-header {
+    img {
+      width: 137px;
+      display: inline-block;
+    }
+  }
+}

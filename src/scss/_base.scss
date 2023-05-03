@@ -64,10 +64,14 @@ main {
   box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.09);
 }
 
+main p {
+  padding: 25px 0 35px 0;
+}
+
 // en grand
 h2 {
   font-family: var(--title);
-  font-size: 65px;
+  font-size: 55px;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -80,6 +84,18 @@ h3 {
   z-index: 600;
   top: 141px;
   left: 232px;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 17px;
+}
+
+@media (max-width: 1400px) {
+  h3 {
+    left: 120px;
+  }
 }
 
 // en moyen
@@ -95,14 +111,7 @@ h3 {
   }
   h4 {
     font-size: 13px;
-    text-transform: uppercase;
-    font-weight: 100;
     padding: 7px 0;
-  }
-
-  h1 {
-    width: 180px;
-    height: 56px;
   }
 }
 
@@ -127,10 +136,6 @@ h3 {
   h1 {
     width: 122px;
     height: 56px;
-  }
-
-  p {
-    padding: 25px 0 35px 0;
   }
 
   p,

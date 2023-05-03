@@ -21,3 +21,8 @@
     min-height: 295px;
   }
 }
+
+.l-to-front {
+  position: relative;
+  z-index: 900;
+}

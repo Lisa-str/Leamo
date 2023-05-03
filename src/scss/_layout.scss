@@ -6,6 +6,18 @@
 
 .l-footer {
   text-align: left;
+  background: var(--lemon-mid);
+  background: linear-gradient(
+    130deg,
+    var(--lemon-mid) 0%,
+    var(--lemon-mid) 63%,
+    var(--lemon-light) 63%
+  );
+}
+
+.l-footer-second {
+  background-color: white;
+  padding: 15px 0;
 }
 
 @media (max-width: 760px) {

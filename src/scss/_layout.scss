@@ -1,6 +1,6 @@
 .l-main-banner {
   position: relative;
-  min-height: 450px;
+  min-height: 400px;
   display: flex;
 }
 
@@ -15,5 +15,9 @@
     letter-spacing: 0;
     font-family: var(--text);
     color: var(--dark-grey);
+  }
+
+  .l-main-banner {
+    min-height: 295px;
   }
 }

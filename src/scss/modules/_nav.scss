@@ -6,13 +6,13 @@ nav {
   justify-content: space-between;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 760px) {
   .nav-desk {
     display: none;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 760px) {
   .nav-mobile {
     display: none;
   }

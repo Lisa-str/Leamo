@@ -4,11 +4,11 @@
 
 @media (max-width: 760px) {
   .picture-mobile {
-    position: relative;
-    top: 40px;
     z-index: 100;
     width: 360px;
-    padding-top: 40px;
+    padding-top: 44px;
+    position: relative;
+    top: 18px;
   }
 
   .picture-desk {

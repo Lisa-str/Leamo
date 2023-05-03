@@ -7,20 +7,27 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
-            <h1>
-              <img
-                class="logo"
-                src="../src/img/Leamo-Logo.svg"
-                alt="logo leamo"
-              />
-            </h1>
-          </div>
-          <div class="col-sm-6">
-            <a href="../src/index.html">page principale</a>
+          <div class="header-container">
+            <div class="col-sm-6 col-md-3">
+              <h1 class="logo logo-header">
+                <img src="../src/img/Leamo-Logo.svg" alt="logo leamo" />
+              </h1>
+            </div>
+            <div class="col-8 nav-mobile">
+              <nav>burger menu</nav>
+            </div>
+            <div class="col-8 nav-desk">
+              <nav>
+                <p>produits</p>
+                <p>engagement</p>
+                <p>cocktails</p>
+                <a href="#">point de vente</a>
+                <a href="">boutique</a>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
@@ -116,39 +123,43 @@
         </div>
       </div>
     </main>
-    <footer>
-      <div class="container">
+    <footer class="l-footer">
+      <div class="container l-to-front">
         <div class="row">
-          <div class="col-sm-6">
-            <img
-              class="logo logo-footer"
-              src="../src/img/Leamo-Logo.svg"
-              alt="logo leamo"
-            />
-          </div>
-          <div class="col-sm-6">
-            <imgs
-              class="logo logo-footer"
-              src="../src/img/logo-alterfood-black.svg"
-              alt="logo alterfood"
-            />
-          </div>
-          <div class="col-sm-6">
-            <p>
-              instagram/leamo <br />
-              points de vente
-            </p>
-          </div>
-          <div class="col-sm-6">
-            <p>4, rue de Sèze 75009 Paris</p>
+          <div class="footer-container">
+            <div class="footer-table">
+              <div class="col-sm-6 footer-in-table">
+                <img
+                  class="logo logo-footer"
+                  src="../src/img/Leamo-Logo.svg"
+                  alt="logo leamo"
+                />
+                <p>
+                  instagram/leamo <br />
+                  points de vente
+                </p>
+              </div>
+              <div class="col-sm-6 footer-in-table">
+                <img
+                  class="logo logo-footer"
+                  src="../src/img/logo-alterfood-black.svg"
+                  alt="logo alterfood"
+                />
+                <p>4, rue de Sèze 75009 Paris</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container l-to-front">
         <div class="row">
-          <div class="col-sm-12">® 2023 LEAMO is a brand from altershop</div>
-          <div class="col-sm-12 footer-credits">
-            <p class="legal">mentions légales</p>
+          <div class="footer-legal-mentions">
+            <div class="col-sm-12 col-md-6">
+              ®2023 LEAMO is a brand from altershop
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <a href="#" class="footer-legal">mentions légales</a>
+            </div>
           </div>
         </div>
       </div>

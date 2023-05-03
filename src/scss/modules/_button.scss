@@ -37,3 +37,19 @@
     font-size: 11px;
   }
 }
+
+.button-container {
+  padding: 10px 0 90px 0px;
+}
+
+@media (max-width: 760px) {
+  .button-container {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .button-container {
+    padding: 10px 0 200px 0px;
+  }
+}

@@ -26,3 +26,9 @@
   position: relative;
   z-index: 900;
 }
+
+@media (min-width: 760px) {
+  .l-text-right {
+    text-align: right;
+  }
+}

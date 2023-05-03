@@ -1,3 +1,32 @@
+.picture-intro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 70%;
+}
+
+.picture-container {
+  position: relative;
+  min-height: 127px;
+}
+
+.picture-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 40%;
+}
+
+.picture-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 40%;
+}
+
 @media (max-width: 760px) {
   .picture-mobile {
     z-index: 100;
@@ -7,7 +36,10 @@
     top: 18px;
   }
 
-  .picture-desk {
+  .picture-desk,
+  .picture-right,
+  .picture-left,
+  .picture-container {
     display: none;
   }
 
@@ -23,36 +55,40 @@
   }
 }
 
-.picture-intro {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+@media (max-width: 992px) {
+  .picture-container {
+    min-height: 240px;
+  }
 
-  img {
-    display: block;
-    left: 0;
+  .picture-left {
+    width: 50%;
+  }
+
+  .picture-right {
+    width: 50%;
   }
 }
 
-.picture-container {
-  position: relative;
-  min-height: 380px;
+@media (min-width: 992px) {
+  .picture-intro {
+    width: 60%;
+  }
 }
 
-.picture-left {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 50%;
-}
+@media (min-width: 1200px) {
+  .picture-container {
+    min-height: 200px;
+  }
 
-.picture-right {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 50%;
+  .picture-left {
+    width: 35%;
+  }
+
+  .picture-right {
+    width: 35%;
+  }
+
+  .picture-intro {
+    width: 45%;
+  }
 }

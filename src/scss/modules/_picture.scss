@@ -57,7 +57,11 @@
 
 @media (max-width: 992px) {
   .picture-container {
-    min-height: 240px;
+    min-height: 150px;
+  }
+
+  .picture-container-detail {
+    min-height: 25px;
   }
 
   .picture-left {
@@ -78,6 +82,10 @@
 @media (min-width: 1200px) {
   .picture-container {
     min-height: 200px;
+  }
+
+  .picture-container-detail {
+    min-height: 100px;
   }
 
   .picture-left {

@@ -13,7 +13,9 @@
           <div class="header-container">
             <div class="col-sm-6 col-md-3">
               <h1 class="logo logo-header">
-                <img src="../src/img/Leamo-Logo.svg" alt="logo leamo" />
+                <a href="../src/index.html"
+                  ><img src="../src/img/Leamo-Logo.svg" alt="logo leamo"
+                /></a>
               </h1>
             </div>
             <div class="col-8 nav-mobile">
@@ -33,18 +35,35 @@
       </div>
     </header>
     <main>
-      <div class="container">
-        <div class="row justify-content-sm-center align-items-sm-center">
-          <div class="col-sm-12"><h2>Ginger beer bio</h2></div>
-          <div class="col-sm-12"><p>disponible en : 25cl, 33cl, 75cl</p></div>
-          <div class="col-12">
-            <img
-              class="bottle big-bottle"
-              src="../src/img/bottle-gingerBeer.webp"
-              alt="ginger beer bio"
-            />
+      <div class="picture-container bottle-container">
+        <div class="picture-left">
+          <img
+            class="bottle bottle-big-desk picture-desk"
+            src="../src/img/bottle-gingerBeer.webp"
+            alt="ginger beer bio"
+          />
+        </div>
+      </div>
+
+      <div class="container l-text-right l-to-front l-center-mobile">
+        <div
+          class="row justify-content-sm-center justify-content-md-end align-items-sm-center"
+        >
+          <div class="col-sm-12">
+            <h2 class="l-title-mobile">Ginger beer bio</h2>
+          </div>
+          <div class="col-sm-12">
+            <span class="disponibility">disponible en : 25cl, 33cl, 75cl</span>
           </div>
           <div class="col-12">
+            <img
+              class="picture-mobile bottle-big bootle-picture"
+              src="../src/img/bottle-gingerBeer.webp"
+              alt="bouteille Ginger Beer bio"
+            />
+          </div>
+          <!-- <div class="col-12"></div> -->
+          <div class="col-md-7 col-sm-12">
             <p>
               Découvrez notre Leamo Ginger beer, notre boisson relevée à forte
               concentration en gingembre, et bien sûr accompagnée d’un trait de
@@ -54,26 +73,41 @@
               aromatiques bio. Sans oublié à consommer sans alcool !
             </p>
           </div>
-          <div class="col-12">
-            <span class="button">boutique</span
-            ><span class="button-minus">ingrédients</span>
+          <div class="button-container">
+            <div class="col-12">
+              <span class="button-minus">ingrédients</span
+              ><span class="button">boutique</span>
+            </div>
           </div>
-          <div class="col-12">les petites bouteilles</div>
         </div>
       </div>
-      <div class="container">
-        <div class="row justify-content-sm-center align-items-sm-center">
-          <div class="col-sm-12">
+
+      <div class="picture-container">
+        <div class="picture-left">
+          <img
+            src="../src/img/cocktail-du-jour-desk.webp"
+            alt="le cocktail du jour"
+          />
+        </div>
+      </div>
+      <div class="container l-to-front l-text-right l-center-mobile">
+        <div
+          class="row justify-content-sm-center justify-content-md-end align-items-sm-center"
+        >
+          <div class="col-12">
             <img
+              class="picture-mobile picture-mobile-top"
               src="../src/img/cocktail-du-jour-mobile.webp"
-              alt=" le cocktail du jour"
+              alt="le cocktail du jour"
             />
           </div>
-          <div class="col-sm-12">
+          <div class="col-12">
             <h4>cocktail du jour</h4>
           </div>
-          <div class="col-sm-12"><h2>Tensaï Tea</h2></div>
-          <div class="col-sm-8">
+          <div class="col-12">
+            <h2>Mood refresh</h2>
+          </div>
+          <div class="col-md-7 col-sm-12">
             <p>Envie d'une boisson rafraîchissante pour vous détendre?</p>
             <p>
               Essayez le cocktail "Mood Refresh" avec la Ginger Beer Bio de
@@ -83,29 +117,44 @@
               détendu. Commandez votre bouteille dès maintenant et essayez-la!
             </p>
           </div>
-          <div class="col-sm-12">
-            <span class="button button-yellow">tous nos cocktails</span>
+          <div class="button-container">
+            <div class="col-12">
+              <span class="button button-yellow"
+                ><a
+                  target="_blank"
+                  href="https://www.alterfood.fr/produit/limonade/leamo/"
+                  >tous nos cocktails</a
+                ></span
+              >
+            </div>
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row justify-content-sm-center align-items-sm-center">
-          <div class="col-sm-12"><h2>Ingrédients</h2></div>
-          <div class="col-12">
+
+      <div class="picture-container">
+        <div class="picture-right">
+          <img
+            class="ingreditents-visibility"
+            src="../src/img/ingredients-desk.webp"
+            alt="verre avec une tranche de citron"
+          />
+        </div>
+      </div>
+      <div class="l-to-front l-text-left l-center-mobile">
+        <div
+          class="row justify-content-sm-center justify-content-md-start align-items-sm-center"
+        >
+          <div class="col-sm-12">
+            <h2 class="l-title-mobile">Ingrédients</h2>
+          </div>
+          <div class="col-8">
             <div class="carousel-ingredient">
-              <span>Ingrédients</span>
+              <span class="carousel-selection">Ingrédients</span>
               <span>Labels</span>
               <span>Valeurs nutrivites</span>
             </div>
           </div>
-          <div class="col-12">
-            <img
-              class="ingreditents-visibility"
-              src="../src/img/ingredients-desk.webp"
-              alt="verre avec une tranche de citron"
-            />
-          </div>
-          <div class="col-12">
+          <div class="col-sm-9 col-md-7">
             <p>
               Eau, sucre*, concentré de jus de citron*, dioxyde de carbone,
               extrait d'armoise*, extrait de quinquina naturel, arôme naturel de
@@ -117,12 +166,15 @@
               les 3 jours.
             </p>
           </div>
-          <div class="col-12">
-            <span class="button button-yellow">en savoir plus</span>
+          <div class="button-container">
+            <div class="col-12">
+              <span class="button button-yellow">en savoir plus</span>
+            </div>
           </div>
         </div>
       </div>
     </main>
+
     <footer>
       <div class="l-footer">
         <div class="container l-to-front">
@@ -135,10 +187,15 @@
                     src="../src/img/Leamo-Logo.svg"
                     alt="logo leamo"
                   />
-                  <p>
-                    instagram/leamo <br />
-                    points de vente
-                  </p>
+                  <a href="https://www.instagram.com/leamo/" target="_blank"
+                    >instagram/leamo
+                  </a>
+                  <br />
+                  <a
+                    href="https://www.alterfood.fr/produit/limonade/leamo/"
+                    target="_blank"
+                    >points de vente</a
+                  >
                 </div>
                 <div class="col-6 footer-in-table">
                   <img

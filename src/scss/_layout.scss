@@ -28,6 +28,9 @@
     font-family: var(--text);
     color: var(--dark-grey);
   }
+  .l-center-mobile {
+    text-align: center;
+  }
 
   .l-main-banner {
     min-height: 295px;
@@ -43,4 +46,8 @@
   .l-text-right {
     text-align: right;
   }
+}
+
+.l-title-mobile {
+  padding-top: 30px;
 }

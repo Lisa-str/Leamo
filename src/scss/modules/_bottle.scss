@@ -1,0 +1,27 @@
+.bottle-container {
+  min-height: 80px;
+}
+
+.bottle-big-desk {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 70%;
+}
+
+@media (max-width: 992px) {
+  .bottle-big-desk {
+    min-width: 340px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .bottle-big-desk {
+    max-width: 313px;
+  }
+}
+
+.bootle-picture {
+  left: 5%;
+  padding: 30px 0 40px 0;
+}

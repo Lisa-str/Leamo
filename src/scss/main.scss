@@ -10,6 +10,11 @@
   src: url(../fonts/Satoshi-Regular.woff2);
 }
 
+@font-face {
+  font-family: "Satoshi-bold";
+  src: url(../fonts/Satoshi-Bold.woff2);
+}
+
 @import "base";
 @import "layout";
 @import "modules/example";

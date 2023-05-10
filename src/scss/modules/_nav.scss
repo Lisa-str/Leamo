@@ -8,10 +8,10 @@ nav {
   .nav-desk {
     display: none;
   }
-  nav {
-    display: flex;
-    justify-content: flex-end;
-  }
+  // nav {
+  //   display: flex;
+  //   justify-content: flex-end;
+  // }
 }
 
 @media (min-width: 992px) {
@@ -21,5 +21,56 @@ nav {
   nav {
     display: flex;
     justify-content: space-around;
+  }
+}
+
+.nav-burger-menu {
+  max-height: 30px;
+  transition: 0.3s ease;
+}
+
+.nav-menu-open {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  text-align: end;
+  padding: 20px 120px 50px;
+  position: absolute;
+  top: 76px;
+  right: 0;
+  background-color: white;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.1);
+
+  nav .link {
+    display: flex;
+    padding-bottom: 30px;
+    flex-direction: column;
+  }
+
+  .carousel-language {
+    margin: 20px 0;
+  }
+}
+
+.nav-bruger-menu-animation {
+  rotate: (60deg);
+}
+
+@media (max-width: 760px) {
+  .nav-menu-open {
+    top: 54px;
+    padding: 20px 50px 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-menu-open {
+    top: 54px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-menu-open {
+    top: 53px;
   }
 }

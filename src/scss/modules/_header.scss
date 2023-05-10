@@ -1,14 +1,15 @@
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .header {
   box-shadow: 0 2px 15px #612e021a;
   background: #fff;
   position: sticky;
   padding: 10px;
+  position: relative;
   z-index: 1000;
   top: 0;
+}
+
+.header-holder {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }

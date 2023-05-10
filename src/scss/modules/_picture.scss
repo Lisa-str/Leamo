@@ -61,7 +61,7 @@
   }
 
   .picture-container-detail {
-    min-height: 25px;
+    min-height: 25-cpx;
   }
 
   .picture-left {
@@ -101,4 +101,14 @@
   .picture-intro {
     max-width: 834px;
   }
+}
+
+.picture-container-detail {
+  min-height: 52px;
+}
+
+.picture-test {
+  animation: » morph calc(var(--duration-factor) * 3s) linear infinite;
+  border-radius: » 40% 60% 70% 30% /40% 50% 60% 50%;
+  transform: translateZ(0);
 }

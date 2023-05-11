@@ -6,10 +6,15 @@
   font-size: 14px;
   font-family: var(--text-bold);
   transition: all 0.3s ease-in-out;
+  display: inline-block;
 }
 
 .button a {
   text-decoration: none;
+}
+
+.button span {
+  user-select: none;
 }
 
 .button-minus {
@@ -24,10 +29,11 @@
 
 .button:hover {
   background: var(--dark-orange);
+  scale: 1.1;
 }
 
-.button-container:hover {
-  scale: 0.9;
+.button:active {
+  scale: 0.95;
 }
 
 .button-yellow {
@@ -69,7 +75,7 @@
 
 @media (min-width: 1200px) {
   .button-container {
-    margin: 10px 0 200px 0px;
+    margin: 10px 0 127px 0px;
   }
 
   .button-container-detail {

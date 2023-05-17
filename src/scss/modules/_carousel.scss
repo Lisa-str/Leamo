@@ -1,3 +1,5 @@
+// carousel ingredient
+
 .carousel-ingredient {
   background: #f3f3f3;
   border-radius: 18px;
@@ -20,15 +22,19 @@
   position: relative;
 }
 
+// carousel langugage
+
 .carousel-language {
   background: #f3f3f3;
   border-radius: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 5px;
+  padding: 3px 8px;
   overflow: hidden;
   top: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .carousel-selection {
@@ -53,4 +59,12 @@
   font-size: 16px;
   z-index: 800;
   padding: 0 5px;
+}
+
+.carousel-language a:hover {
+  color: rgb(87, 24, 4);
+}
+
+.carousel-language:hover {
+  scale: 1.1;
 }

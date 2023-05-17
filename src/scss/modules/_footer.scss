@@ -22,7 +22,6 @@ footer p {
   padding-right: 20px;
 }
 
-// en petit
 @media (max-width: 760px) {
   footer {
     text-align: start;
@@ -33,7 +32,6 @@ footer p {
   }
 }
 
-// en grand
 @media (min-width: 760px) {
   .footer-legal-mentions {
     display: flex;
@@ -47,4 +45,8 @@ footer p {
   footer img {
     padding-bottom: 40px;
   }
+}
+
+footer a:hover {
+  color: var(--dark-orange);
 }

@@ -1,0 +1,24 @@
+.information-close {
+  display: none;
+}
+
+.information {
+  font-size: 18px;
+}
+
+@media (max-width: 1400px) {
+  .information-carousel-langugage {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1400px) {
+  .information-carousel-langugage {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .information {
+    margin-left: 15px;
+  }
+}

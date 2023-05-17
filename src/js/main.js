@@ -34,6 +34,19 @@ const swiper = new Swiper(".swiper-container", {
   },
 });
 
+// const swiper = new Swiper(".swiper-container", {
+//   clickable: true,
+//   // cssMode: true,
+//   speed: 1000,
+//   mousewheel: true,
+//   keyboard: true,
+//   spaceBetween: 50,
+
+//   pagination: {
+//     el: ".swiper-pagination",
+//   },
+// });
+
 // ---------- Burger Menu
 
 var burgerMenu = document.querySelector(".nav-burger-menu");

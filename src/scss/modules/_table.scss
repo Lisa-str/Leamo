@@ -1,0 +1,18 @@
+.table {
+  margin: 27px 0;
+
+  th,
+  td {
+    border-bottom: solid black 1.5px;
+    padding: 5px 0;
+  }
+  th {
+    font-weight: 400;
+    text-align: start;
+  }
+  caption {
+    text-align: end;
+    border-bottom: solid black 1.5px;
+    padding: 5px 0;
+  }
+}

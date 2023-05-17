@@ -20,6 +20,12 @@
 
 .carousel {
   position: relative;
+
+  a {
+    font-size: 16px;
+    z-index: 800;
+    padding: 0 5px;
+  }
 }
 
 // carousel langugage
@@ -35,7 +41,16 @@
   top: 2px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+
+  &:hover {
+    scale: 1.1;
+  }
+  a:hover {
+    color: rgb(87, 24, 4);
+  }
 }
+
+// carousel detail
 
 .carousel-selection {
   background-color: var(--yellow);
@@ -44,6 +59,12 @@
   z-index: 300;
   left: 0;
   position: absolute;
+}
+
+.carousel-selection-valeurs {
+  background-color: var(--orange);
+  padding: 18px 21%;
+  left: 292px;
 }
 
 .carousel-selection-language {
@@ -55,16 +76,67 @@
   position: absolute;
 }
 
-.carousel a {
-  font-size: 16px;
-  z-index: 800;
-  padding: 0 5px;
+.carousel-selection-labels {
+  left: 146px;
+  padding: 18px 17%;
 }
 
-.carousel-language a:hover {
-  color: rgb(87, 24, 4);
+@media (max-width: 760px) {
+  .carousel-selection-valeurs {
+    padding: 18px 22%;
+    left: 261px;
+  }
+
+  .carousel-selection-labels {
+    padding: 18px 22%;
+    left: 221px;
+  }
 }
 
-.carousel-language:hover {
-  scale: 1.1;
+@media (min-width: 992px) {
+  .carousel-selection-valeurs {
+    padding: 18px 17%;
+    left: 129px;
+  }
+
+  .carousel-selection-labels {
+    padding: 18px 22%;
+    left: 252px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel-selection-valeurs {
+    padding: 18px 22%;
+    left: 251px;
+  }
+
+  .carousel-selection-labels {
+    padding: 18px 22%;
+    left: 251px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .carousel-selection-valeurs {
+    padding: 18px 22%;
+    left: 304px;
+  }
+
+  .carousel-selection-labels {
+    padding: 18px 19%;
+    left: 148px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .carousel-selection-valeurs {
+    padding: 18px 22%;
+    left: 358px;
+  }
+
+  .carousel-selection-labels {
+    padding: 18px 20%;
+    left: 169px;
+  }
 }

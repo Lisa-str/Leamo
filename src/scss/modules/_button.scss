@@ -25,6 +25,9 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 11px;
+  a {
+    text-decoration: none;
+  }
 }
 
 .button:hover {

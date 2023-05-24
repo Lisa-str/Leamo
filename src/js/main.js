@@ -72,5 +72,4 @@ var NoDisponibility = document.querySelector(".information");
 
 Language.addEventListener("click", () => {
   NoDisponibility.classList.toggle("information-close");
-  burgerMenu.classList.toggle("nav-bruger-menu-animation");
 });

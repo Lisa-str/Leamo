@@ -4,7 +4,7 @@
 
 .bottle-big-desk {
   position: absolute;
-  top: 50%;
+  top: 53px;
   left: 0;
   width: 70%;
 }
@@ -47,5 +47,41 @@
 @media (min-width: 1120px) {
   .bottle-big-desk {
     max-width: 313px;
+    left: 20%;
+  }
+}
+
+@media (min-width: 1562px) {
+  .bottle-big-desk {
+    max-width: 313px;
+    left: 35%;
+  }
+}
+
+@media (min-width: 1800px) {
+  .bottle-big-desk {
+    max-width: 313px;
+    left: 50%;
+  }
+}
+
+@media (min-width: 2000px) {
+  .bottle-big-desk {
+    max-width: 313px;
+    left: 70%;
+  }
+}
+
+@media (min-width: 2200px) {
+  .bottle-big-desk {
+    max-width: 313px;
+    left: 90%;
+  }
+}
+
+@media (min-width: 2500px) {
+  .bottle-big-desk {
+    max-width: 313px;
+    left: 100%;
   }
 }

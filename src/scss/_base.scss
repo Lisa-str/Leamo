@@ -145,10 +145,6 @@ h4 {
     z-index: 700;
     position: relative;
   }
-
-  .ingreditents-visibility {
-    display: none;
-  }
 }
 
 @media (max-width: 576px) {
@@ -167,4 +163,21 @@ a:hover {
 
 a:active {
   color: var(--dark-orange);
+}
+
+@media (min-width: 760px) {
+  footer img {
+    padding-bottom: 40px;
+  }
+}
+
+footer img {
+  max-width: 80%;
+}
+footer {
+  background: var(--lemon-mid);
+}
+
+footer p {
+  padding-bottom: 5px;
 }

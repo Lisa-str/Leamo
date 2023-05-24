@@ -17,8 +17,6 @@ gsap.registerPlugin(ScrollTrigger);
 Swiper.use([Navigation, Pagination, Autoplay]);
 
 const swiper = new Swiper(".swiper-container", {
-  clickable: true,
-  // cssMode: true,
   loop: true,
   speed: 1000,
   mousewheel: true,
@@ -27,25 +25,13 @@ const swiper = new Swiper(".swiper-container", {
 
   pagination: {
     el: ".swiper-pagination",
+    clickable: true,
   },
   autoplay: {
     delay: 3500,
     disableOnInteraction: true,
   },
 });
-
-// const swiper = new Swiper(".swiper-container", {
-//   clickable: true,
-//   // cssMode: true,
-//   speed: 1000,
-//   mousewheel: true,
-//   keyboard: true,
-//   spaceBetween: 50,
-
-//   pagination: {
-//     el: ".swiper-pagination",
-//   },
-// });
 
 // ---------- Burger Menu
 
